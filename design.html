@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 2rem;
+            color: #005f99;
+            margin-bottom: 20px;
+        }
+
+        .mockup {
+            margin-bottom: 20px;
+        }
+
+        .mockup img {
+            width: 100%;
+            max-width: 320px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .mockup-title {
+            font-size: 1.2rem;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .mockup-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px; /* Boşluk azaltıldı */
+        }
+
+        .mockup-row .mockup {
+            flex: 1 1 calc(50% - 10px); /* Marjin azaltıldı */
+            max-width: calc(20% - 10px);
+        }
+
+        @media (max-width: 768px) {
+            .mockup-row .mockup {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MemorEase Mockups</h1>
+
+        <div class="mockup">
+            
+            <img src="figma/1-splashscreen.png" alt="Splash Screen">
+        </div>
+
+        <div class="mockup">
+            
+            <img src="figma/2-loginscreen.png" alt="Login Screen">
+        </div>
+
+        <!-- Yan yana yerleştirilecek mockup'lar için bu yapı kullanılıyor -->
+        <div class="mockup-row">
+            <div class="mockup">
+                <img src="figma/3-sign-In-user.png" alt="Sign In User">
+            </div>
+            <div class="mockup">
+                <img src="figma/4-sign-In-relative.png" alt="Sign In Relative">
+            </div>
+        </div>
+
+        <div class="mockup-row">
+            <div class="mockup">
+                <img src="figma/5-sign-up-user.png" alt="Sign In User">
+            </div>
+            <div class="mockup">
+                <img src="figma/6-sign-up-relative.png" alt="Sign In Relative">
+            </div>
+        </div>
+        
+        <div class="mockup">
+            <img src="figma/7-UUIDSCREEN.png" alt="UUID Screen">
+        </div>
+
+        <div class="mockup">
+            <img src="figma/8-mainscreen.png" alt="Main Screen">
+        </div>
+
+        <div class="mockup">
+            <img src="figma/9-reviewmemories.png" alt="Main Screen">
+        </div>
+
+        <div class="mockup-row">
+            <div class="mockup">
+                <img src="figma/10-uploadmemories.png" alt="Sign In User">
+            </div>
+            <div class="mockup">
+                <img src="figma/11-uploadtext.png" alt="Sign In Relative">
+            </div>
+            <div class="mockup">
+                <img src="figma/12-upload-image.png" alt="Sign In Relative">
+            </div>
+            <div class="mockup">
+                <img src="figma/13-upload-voice.png" alt="Sign In Relative">
+            </div>
+        </div>
+
+        <div class="mockup-row">
+            <div class="mockup">
+                <img src="figma/14-quizmainpage.png" alt="Sign In User">
+            </div>
+            <div class="mockup">
+                <img src="figma/15-question1.png" alt="Sign In Relative">
+            </div>
+            <div class="mockup">
+                <img src="figma/16-question2.png" alt="Sign In Relative">
+            </div>
+            <div class="mockup">
+                <img src="figma/17-question3.png" alt="Sign In Relative">
+            </div>
+        </div>
+
+        <div class="mockup">
+            <img src="figma/18-ranking.png" alt="Main Screen">
+        </div>
+
+        <div class="mockup-row">
+            <div class="mockup">
+                <img src="figma/19-report-weekly.png" alt="Sign In User">
+            </div>
+            <div class="mockup">
+                <img src="figma/20-report-week.png" alt="Sign In Relative">
+            </div>
+        </div>
+
+        <div class="mockup">
+            <img src="figma/21-relativemain.png" alt="Main Screen">
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f0f8ff;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #e6f2ff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 700px;
+        }
+
+        .container img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .container h2 {
+            font-size: 2rem;
+            color: #005f99;
+            margin-bottom: 10px;
+        }
+
+        .container p {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .report-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .report-list li {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .report-list img {
+            width: 40px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        .report-list a {
+            font-size: 1rem;
+            color: #005f99;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .report-list a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+            }
+
+            .report-list li {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .report-list img {
+                margin-bottom: 10px;
+            }
+
+            .report-list a {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="res/statistics.png" alt="Statistics Icon">
+        <h2>Reports</h2>
+        <p>Below are the available reports in PDF format. Click to view or download:</p>
+        <ul class="report-list">
+            <li>
+                <img src="res/pdf.png" alt="PDF Icon">
+                <a href="reports/Project Proposal Report.pdf" target="_blank">Project Proposal Report</a>
+            </li>
+            <li>
+                <img src="res/pdf.png" alt="PDF Icon">
+                <a href="reports/High Level Design Report.pdf" target="_blank">High Level Design Report</a>
+            </li>
+            <li>
+                <img src="res/pdf.png" alt="PDF Icon">
+                <a href="reports/Project Analysis Report.pdf" target="_blank">Project Analysis Report</a>
+            </li>
+            <li>
+                <img src="res/pdf.png" alt="PDF Icon">
+                <a href="reports/Project Specification Report.pdf" target="_blank">Project Specification Report</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

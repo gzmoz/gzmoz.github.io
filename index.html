@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemorEase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f0f8ff;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: auto;
+        }
+
+        .logo h1 {
+            font-size: 2rem;
+            color: #005f99;
+            margin: 10px 0;
+        }
+
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .button {
+            background-color: #87CEEB;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #78B8DC;
+        }
+
+        @media (max-width: 480px) {
+            .buttons-container {
+                gap: 10px;
+            }
+
+            .button {
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="res/logo.png" alt="MemorEase Logo">
+        <h1>MemorEase</h1>
+    </div>
+
+    <div class="buttons-container">
+        <a href="group-members.html" class="button">Group Members</a>
+        <a href="supervisor-and-jury.html" class="button">Supervisor and Jury Members</a>
+        <a href="project-description.html" class="button">Project Description</a>
+        <a href="design.html" class="button">Design</a>
+        <a href="reports.html" class="button">Reports</a>
+    </div>
+
+    <script>
+        // You can add any additional JavaScript if needed later.
+    </script>
+</body>
+</html>
